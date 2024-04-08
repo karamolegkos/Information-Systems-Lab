@@ -4,18 +4,8 @@
 
 Μπορείτε να βρείτε το κώδικα από τις διαφάνειες του μαθήματος χωρισμένο σε διαφορετικούς φακέλους. 
 
-## Δομή του εργαστηρίου
-1. [Εργαστήριο 1 - Εισαγωγή Εισαγωγή στην Υπηρεσιοστρεφή Αρχιτεκτονική και τη Python](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab1)
-   * Εισαγωγή με την Υπηρεσιοστρεφή Αρχιτεκτονική (SOA) και τα Web Services
-      * SOA
-      * REST & Restful APIs
-   * Γνωριμία με τη Python 3
-      * Γενικές έννοιες
-      * Anaconda distribution
-   * Git
-      * GitΗub account
-      * Δημιουργία νέου repository
-      * Βασικές εντολές
+## Δομή του Εργαστηρίου
+1. [Εργαστήριο 1 - Εισαγωγή Εισαγωγή στην Υπηρεσιοστρεφή Αρχιτεκτονική και τη Python](lab1)
 2. [Εργαστήριο 2 - Εισαγωγή στο Docker](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab2)
    * Docker - Βασικές έννοιες 
    * Πλεονεκτήματα και Μειονεκτήματα
