@@ -20,12 +20,12 @@
 
 ## Υλικό για Εγκατάσταση
 Στον υπολογιστή των φοιτητών πρέπει να εγκατασταθούν τα παρακάτω:
-* Postman: Για μελλοντική Επικοινωνία σε APIs.
-* Docker Desktop: Για την μελλοντική χρήση του Docker Engine για την δημιουργία Containers.
-* Git: Για την χρήση Version Control platforms όπως το Github.
-* Python3: Για την υλοποίηση εφαρμογών.
-* Anaconda: Για την διαχείριση των βιβλιοθηκών των εφαρμογών (Μη Υποχρεωτικό).
-* Visual Studio Code Ως IDE για την συγγραφή των εφαρμογών (Μη Υποχρεωτικό).
+* [Postman](https://www.postman.com/): Για μελλοντική Επικοινωνία σε APIs.
+* [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/): Για την μελλοντική χρήση του Docker Engine για την δημιουργία Containers.
+* [Git](https://git-scm.com/downloads): Για την χρήση Version Control platforms όπως το Github.
+* [Python3](https://www.python.org/downloads/): Για την υλοποίηση εφαρμογών.
+* [Anaconda](https://www.anaconda.com/distribution/): Για την διαχείριση των βιβλιοθηκών των εφαρμογών (Μη Υποχρεωτικό).
+* [Visual Studio Code](https://code.visualstudio.com/): Ως IDE για την συγγραφή των εφαρμογών (Μη Υποχρεωτικό).
 
 ## Στοιχεία Επικοινωνίας
 * Παναγιώτης Καραμολέγκος, [pkaram@unipi.gr](mailto:pkaram@unipi.gr)
