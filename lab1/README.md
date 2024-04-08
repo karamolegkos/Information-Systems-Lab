@@ -46,7 +46,7 @@ python -m venv my_venv
 # (Για Windows)
 .\my_venv\Scripts\activate
 # (Για Linux)
-my_venv/bin/activate
+source my_venv/bin/activate
 
 # Εγκαθιστώ την βιβλιοθήκη flask
 pip install flask
@@ -64,6 +64,6 @@ python my_file.py
 # Απενεργοποίηση Virtual Environment
 deactivate
 
-# Αν θέλω να το ξαναενεργοποίησω (Windows)
+# Αν θέλω να το ξαναενεργοποίησω (Για Windows)
 .\my_venv\Scripts\activate
 ```
