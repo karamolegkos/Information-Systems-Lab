@@ -43,7 +43,7 @@ git push -u origin main
 ```
 Support for password authentication was removed on August 13, 2021.
 ```
-Τότε πρέπει να ακολουθήσουμε τα βήματα που αναφέρει το GitHub σε [αυτόν](https://git-scm.com/downloads) τον σύνδεσμο. Στην συνέχεια μπορούμε να ξαναδοκιμάσουμε την εντολή `git push -u origin main`. Απλά αυτήν την φορά αντί για τον κωδικό μας, γράφουμε το `token` που δημιουργήσαμε και αποθηκεύσαμε.
+Τότε πρέπει να ακολουθήσουμε τα βήματα που αναφέρει το GitHub σε [αυτόν](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) τον σύνδεσμο. Στην συνέχεια μπορούμε να ξαναδοκιμάσουμε την εντολή `git push -u origin main`. Απλά αυτήν την φορά αντί για τον κωδικό μας, γράφουμε το `token` που δημιουργήσαμε και αποθηκεύσαμε.
 
 ## Ανανέωση Remote Repo
 
