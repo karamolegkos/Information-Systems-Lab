@@ -3,7 +3,7 @@
 Το Docker είναι ένα εργαλείο για Containerization των εφαρμογών μας. Είναι καλό να γνωρίζουμε τα παρακάτω:
 - Docker Engine: Το Docker Engine είναι το εργαλείο με το οποίο μπορούμε να πραγματοποιήσουμε containerization.
 - Docker Desktop: Ένα GUI περιβάλλον που μπορούμε να εγκαταστήσουμε για να διευκολύνουμε την διαχείριση του Docker Engine.
-- [DockerHub](https://hub.docker.com/): Το DockerHub αποτελεί ένα αποθετήριο εικόνων. Εκεί βρίσκονται διάφορα ήδη έτοιμα images τα οποία μπορούμε να χρησιμοποιούμε. Εκεί επίσης μπορούμε να ανεβάζουμε και δικά μας Images.
+- [Docker Hub](https://hub.docker.com/): Το Docker Hub αποτελεί ένα αποθετήριο εικόνων. Εκεί βρίσκονται διάφορα ήδη έτοιμα images τα οποία μπορούμε να χρησιμοποιούμε. Εκεί επίσης μπορούμε να ανεβάζουμε και δικά μας Images.
 
 ## Installation
 
@@ -58,7 +58,7 @@ sudo docker run hello-world
 | docker logs _name_    | Εμφάνιση των logs                                                                         |
 | docker build .        | Κατασκευή image από το current directory                                                  |
 | docker pull _name_    | Κατέβασμα τοπικά του image                                                                |
-| docker push _name_    | Ανέβασμα του image σε κάποιο απομακρυσμένο image repository (By Default DockerHub)        |
+| docker push _name_    | Ανέβασμα του image σε κάποιο απομακρυσμένο image repository (By Default Docker Hub)        |
 
 ## Build a Docker Image
 
