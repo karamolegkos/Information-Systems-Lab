@@ -1,4 +1,3 @@
-# Simple while loop example
 count = 1  # Initialize a counter variable
 
 # Keep looping until the count reaches 5

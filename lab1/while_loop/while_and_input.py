@@ -1,4 +1,3 @@
-# Simple while loop example
 user_input = ''  # Initialize the variable to hold user input
 
 # Keep asking for input until the user enters 'quit'
