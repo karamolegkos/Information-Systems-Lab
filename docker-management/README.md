@@ -39,16 +39,16 @@ sudo apt-get update
 | --------------------- | ----------------------------------------------------------------------------------------- |
 | docker images         | Λίστα με όλα τα images που έχουμε                                                         |
 | docker ps -a          | Λίστα με όλα τα containers που είναι ενεργά                                               |
-| docker run <name>     | Δημιουργία και εκτέλεση container (Αν δεν υπάρχει το image τοπικά, γίνεται και κατέβασμα) |
-| docker exec <name>    | Εκτέλεση εντολών μέσα σε ένα container                                                    |
-| docker stop <name>    | Σταμάτημα ενός ενεργού container                                                          |
-| docker rm <name>      | Αφαίρεση ενός σταματημένου container                                                      |
-| docker rmi <name>     | Διαγραφή ενός image από τον υπολογιστή (πρώτα να είναι σταματημένο το container)          |
-| docker inspect <name> | Εμφάνιση low-level πληροφοριών για ένα container                                          |
-| docker logs <name>    | Εμφάνιση των logs                                                                         |
+| docker run _name_     | Δημιουργία και εκτέλεση container (Αν δεν υπάρχει το image τοπικά, γίνεται και κατέβασμα) |
+| docker exec _name_    | Εκτέλεση εντολών μέσα σε ένα container                                                    |
+| docker stop _name_    | Σταμάτημα ενός ενεργού container                                                          |
+| docker rm _name_      | Αφαίρεση ενός σταματημένου container                                                      |
+| docker rmi _name_     | Διαγραφή ενός image από τον υπολογιστή (πρώτα να είναι σταματημένο το container)          |
+| docker inspect _name_ | Εμφάνιση low-level πληροφοριών για ένα container                                          |
+| docker logs _name_    | Εμφάνιση των logs                                                                         |
 | docker build .        | Κατασκευή image από το current directory                                                  |
-| docker pull <name>    | Κατέβασμα τοπικά του image                                                                |
-| docker push <name>    | Ανέβασμα του image σε κάποιο απομακρυσμένο image repository (By Default DockerHub)        |
+| docker pull _name_    | Κατέβασμα τοπικά του image                                                                |
+| docker push _name_    | Ανέβασμα του image σε κάποιο απομακρυσμένο image repository (By Default DockerHub)        |
 
 ## Build a Docker Image
 
