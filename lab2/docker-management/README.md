@@ -9,8 +9,8 @@
 
 Για να κάνουμε install το Docker Desktop, ακολουθούμε τα παρακάτω guides:
 - [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
-- [Docker Desktopfor Linux](https://docs.docker.com/desktop/install/linux-install/)
-- [Docker Desktopfor Mac](https://docs.docker.com/desktop/install/mac-install/)
+- [Docker Desktop for Linux](https://docs.docker.com/desktop/install/linux-install/)
+- [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/)
 
 Παρακάτω δίνεται μία επιπλέων βοήθεια για χρήστες Ubuntu. Μπορείτε να εγκαταστήσετε το Docker χωρίς το Docker Desktop κάνοντας το παρακάτω:
 ```
