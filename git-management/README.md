@@ -6,6 +6,7 @@
 - [Κατασκευή ενός GitHub Repository](#-Κατασκευή-ενός-GitHub-Repository)
 - [Κατασκευή ενός Τοπικού Repository και σύνδεση με το GitHub](#-Κατασκευή-ενός-Τοπικού-Repository-και-σύνδεση-με-το-GitHub)
 - [Ανανέωση Remote Repo](#-Ανανέωση-Remote-Repo)
+- [Κατέβασμα Τοπικά ενός Remote Repo](#-Κατέβασμα-Τοπικά-ενός-Remote-Repo)
 
 ## Κατασκευή ενός GitHub Repository
 
