@@ -8,4 +8,6 @@
 * Docker containers networking
 * Docker Hub 
 
-Μπορείτε να βρείτε δύο παραδείγματα κατασκευής Python3 κώδικα και χρήσης Git/Docker στον φάκελο [docker-management](./../docker-management/).
+Σε αυτόν τον φάκελο μπορείτε να βρείτε παραδείγματα κατασκευής Python3 εφαρμογών και τελικά το containerization τους.
+
+Μπορείτε να βρείτε εξήγηση του τρόπου διαχείρισης του Docker Engine στον φάκελο [docker-management](./../docker-management/).
