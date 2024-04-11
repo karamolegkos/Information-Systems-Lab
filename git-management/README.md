@@ -61,7 +61,6 @@ Support for password authentication was removed on August 13, 2021.
 ## Κατέβασμα Τοπικά ενός Remote Repo
 
 Αν έχουμε ένα υπάρχων git repo κάπου remotely, τότε αρκεί να γράψουμε το παρακάτω command για να το αποκτήσουμε:
-Με `git clone` command:
 ```
 git clone <https-link-from-our-github-code-repo>
 ```
