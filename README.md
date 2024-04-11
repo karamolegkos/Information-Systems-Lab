@@ -7,14 +7,8 @@
 ## Δομή του Εργαστηρίου
 0. [Διαχείριση Git](git-management)
 1. [Εργαστήριο 1 - Εισαγωγή Εισαγωγή στην Υπηρεσιοστρεφή Αρχιτεκτονική και τη Python](lab1)
-<!-- 2. [Εργαστήριο 2 - Εισαγωγή στο Docker](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab2)
-   * Docker - Βασικές έννοιες 
-   * Πλεονεκτήματα και Μειονεκτήματα
-   * Εγκατάσταση Docker
-   * Εκτέλεση εφαρμογών 
-   * Docker containers networking
-   * Docker Hub 
-3. [Εργαστήριο 3 - MongoDB και Flask 1/2](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab3)
+2. [Εργαστήριο 2 - Εισαγωγή στο Docker](lab2)
+<!-- 3. [Εργαστήριο 3 - MongoDB και Flask 1/2](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab3)
 4. [Εργαστήριο 4 - MongoDB και Flask 2/2](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab4)
 5. [Εργαστήριο 5 - Containerization](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab5)
 6. [Extra Εργαστήριο - Scaling στο Docker](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab6) -->
