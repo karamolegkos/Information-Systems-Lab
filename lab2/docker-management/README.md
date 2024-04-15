@@ -76,18 +76,18 @@ docker build --tag <image_name> .
 
 Στο αρχείο **Dockerfile**, μπορούν να χρησιμοποιηθούν οι παρακάτω εντολές:
 
-| Command                     | Λειτουργία                                                                                 |
-| --------------------------- | ------------------------------------------------------------------------------------------ |
-| # Comments                  | Χρησιμοποιώντας το σύμβολο `#` καταγράφονται single line comments                          |
-| MAINTAINER _name_           | Χρησιμοποιείται για την αναφορά του συγγραφέα του image                                    |
-| FROM _base-image_           | Αναφορά στο Base Image που θα χρησιμοποιηθεί                                               |
-| USER _username_             | Απόδοση ενός ονόματος στον user που χρησιμοποιείται εντός του container                    |
-| WORKDIR _/path/to/workdir_  | Απόδοση ενός directory στο οποίο θα εκτελεστούν τα `RUN`, `CMD`, `ENTRYPOINT` etc commands |
-| COPY _host-dir_ _image-dir_ | Αντιγραφή αρχείων από τον host εντός του image                                             |
-| EXPOSE _port_               | Χρησιμοποιείται για να επιτρέψουμε σε ένα Port να έχει πρόσβαση εξωτερικά από το container |
-| RUN _build-command_         | Εκτελεί ένα command κατά την κατασκευή του image                                           |
-| CMD _exec-command_          | Εκτελεί ένα command κατά την κατασκευή του container                                       |
-| ENTRYPOINT _params-list_    | Χρησιμοποιείται για την εκτέλεση ενός command κατά το ξεκίνημα του container by default    |
+| Command                     | Λειτουργία                                                                                    |
+| --------------------------- | --------------------------------------------------------------------------------------------- |
+| # Comments                  | Χρησιμοποιώντας το σύμβολο `#` καταγράφονται single line comments                             |
+| MAINTAINER _name_           | Χρησιμοποιείται για την αναφορά του συγγραφέα του image                                       |
+| FROM _base-image_           | Αναφορά στο Base Image που θα χρησιμοποιηθεί. Πρέπει να είναι το πρώτο command στο Dockerfile |
+| USER _username_             | Απόδοση ενός ονόματος στον user που χρησιμοποιείται εντός του container                       |
+| WORKDIR _/path/to/workdir_  | Απόδοση ενός directory στο οποίο θα εκτελεστούν τα `RUN`, `CMD`, `ENTRYPOINT` etc commands    |
+| COPY _host-dir_ _image-dir_ | Αντιγραφή αρχείων από τον host εντός του image                                                |
+| EXPOSE _port_               | Χρησιμοποιείται για να επιτρέψουμε σε ένα Port να έχει πρόσβαση εξωτερικά από το container    |
+| RUN _build-command_         | Εκτελεί ένα command κατά την κατασκευή του image                                              |
+| CMD _exec-command_          | Εκτελεί ένα command κατά την κατασκευή του container                                          |
+| ENTRYPOINT _params-list_    | Χρησιμοποιείται για την εκτέλεση ενός command κατά το ξεκίνημα του container by default       |
 
 Για επιπλέων πληροφορίες, προτείνετε να μελετήσετε το official documentation [εδώ](https://docs.docker.com/reference/dockerfile/).
 
