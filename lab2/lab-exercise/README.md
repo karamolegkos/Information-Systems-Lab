@@ -16,7 +16,7 @@
 ```
 python exercise.py
 ```
-Θα παρατηρίσετε πως θα εμφανιστεί το παρακάτω error, καθώς σας εξηγήται πως δεν έχετε εγκαταστήσει την βιβλιοθήκη `requests`.
+Θα παρατηρήσετε πως θα εμφανιστεί το παρακάτω error, καθώς σας εξηγείται πως δεν έχετε εγκαταστήσει την βιβλιοθήκη `requests`.
 ```
 Traceback (most recent call last):
   File "C:\Users\pkara\OneDrive\Υπολογιστής\test\exercise.py", line 1, in <module>
@@ -25,7 +25,7 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'requests'
 ```
 
-Θα γίνει χρήση ενός Python Virtual Environment για την κατασκευή εγκατάσταση την διαχείριση των αναγκαίων βιβλιοθηκών του Python script. Αρχικά ελένξτε αν έχετε εγκατεστημένο το σχετικό packet manager:
+Θα γίνει χρήση ενός Python Virtual Environment για την κατασκευή εγκατάσταση την διαχείριση των αναγκαίων βιβλιοθηκών του Python script. Αρχικά ελέγξτε αν έχετε εγκατεστημένο το σχετικό packet manager:
 ```
 pip install virtualenv
 ```
@@ -39,12 +39,12 @@ python -m venv my_venv
 source my_venv/bin/activate
 ```
 
-Συνεχίζοντας εγκαταστήστε πλέων την βιβλιοθήκη `requests`.
+Συνεχίζοντας εγκαταστήστε πλέον την βιβλιοθήκη `requests`.
 ```
 pip install requests
 ```
 
-Μόλις ολοκληρωθεί η διαδικασία, θα παρατηρίσετε πως το παρακάτω command εκτελεί πλέων τον κώδικά και φαίρνει δεδομένα από ένα απομακρισμένο API:
+Μόλις ολοκληρωθεί η διαδικασία, θα παρατηρήσετε πως το παρακάτω command εκτελεί πλέον τον κώδικά και φέρνει δεδομένα από ένα απομακρυσμένο API:
 ```
 python exercise.py
 ```
@@ -55,7 +55,7 @@ pip freeze > requirements.txt
 deactivate
 ```
 
-Πλέων ο φάκελος (με όνομε `my_venv`) που κρατάει τις βιβλιοθήκες του Python Virtual Environment είναι άχρηστος. Μπορείτε να τον διαγράψετε.
+Πλέον ο φάκελος (με όνομε `my_venv`) που κρατάει τις βιβλιοθήκες του Python Virtual Environment είναι άχρηστος. Μπορείτε να τον διαγράψετε.
 
 ### Κατασκευή Image
 
@@ -69,8 +69,8 @@ docker build -t my-first-image .
 
 ### Διαχείριση Container
 
-Πλέων έχετε κατασκευάσει ένα Docker Image. Μπορείτε να το δείτε γράφοντας `docker images`.
-Κατασκευάστε ένα Docker Container από το Docker Image εκτελόντας την παρακάτω εντολή:
+Πλέον έχετε κατασκευάσει ένα Docker Image. Μπορείτε να το δείτε γράφοντας `docker images`.
+Κατασκευάστε ένα Docker Container από το Docker Image εκτελώντας την παρακάτω εντολή:
 ```
 docker run -d --name my-first-container my-first-image
 ```
@@ -94,7 +94,7 @@ docker rm my-first-container
 
 ### Docker Hub Upload
 
-Για να ανεβάσετε την εικόνα που φτιάξατε στο Docker Hub αρκεί να γράψετε τα παρακάτω, υποθέτωντας πως το username σας είναι _sonem_
+Για να ανεβάσετε την εικόνα που φτιάξατε στο Docker Hub αρκεί να γράψετε τα παρακάτω, υποθέτοντας πως το username σας είναι _sonem_
 ```
 # Connect the local Docker Engine with our DockerHub account
 # docker login -u <user_name>
