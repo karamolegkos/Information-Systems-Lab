@@ -1,5 +1,7 @@
 # Basic REST operations with Flask
 
+## Γενικά
+
 Σε  αυτό το εργαστήριο
 - Θα συζητούμε της βασικές αρχές για REST services.
 - Στη συνέχεια θα δούμε πως λειτουργεί το flask. Το flask είναι ένα python microframework για υλοποίηση APIs.
@@ -13,7 +15,11 @@
 
 - Θα υλοποιήσουμε μηχανισμούς ελέγχου εξουσιοδότησης ώστε να υπάρχει έλεγχος πρόσβασης στις λειτουργίες πάνω στα resourses.
 
-> Για να μπορούμε να κάνουμε requests στα resources χωρίς authorization πρέπει να σχολιάσουμε το `@token_required` σε όποιες συναρτήσεις βρίσκεται μέσα στο αρχεία `routes.py`
+### Unauthorized requests
+
+ Για να μπορούμε να κάνουμε requests στα resources χωρίς authorization πρέπει να σχολιάσουμε το `@token_required` σε όποιες συναρτήσεις βρίσκεται μέσα στο αρχεία `routes.py`
+
+### Authorized requests
 
 Για να δοκιμάσουμε το authorization πρέπει να κάνουμε τα εξής βήματα
 1. Το `@token_required` πρέπει να μην είναι σχολιασμένο στις συναρτήσεις στο αρχείο `routes.py`.
