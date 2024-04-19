@@ -26,13 +26,13 @@
 2. Κάνουμε ένα POST request στο ‘http://locallhost:5000/token’ για να πάρουμε token. Στο body του request πρέπει να υπάρχουν τα “username” = “admin” και “password” = “admin”.
 3. Κάνουμε request σε endpoint που χρειάζεται authorization και βάζουμε στα headers του request το token που πήραμε.
 
-## Project structure
+## Δομή του φακέλου
 
-The structure of the project is the following  
+Η δομή του φακέλου στο εργαστήριο 3 είναι η εξής
 ![alt text](image.png)
 
 
-## Προαπαιτούμενα
+## Βήματα για να τρέξουμε την εφαρμογή
 
 1. Δημιουργούμε virtual environment
 2. Ενεργοποιούμε το virtual environment
