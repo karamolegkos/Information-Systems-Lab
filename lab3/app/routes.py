@@ -11,45 +11,29 @@ db = Repository()
 # Routes    
 @server.route('/books', methods=['GET'])
 def books():
-    id = request.args.get('id')
-    if id is not None:
-        book = db.get_book_by_id(id)
-        return (book.to_dict(), 200) if book else ("Book not found", 404)
-    else:
-        books = db.get_books()
-        return books, 200
+    # id = request.args.get('id')
+    # Υλοποιήστε τον κώδικα σας
+    pass
 
 
 @server.route('/books', methods=['POST'])
-@token_required
 def book():
-    data = request.get_json()
-    if data is None:
-        return "Missing parameters"
-    if not data.get('title') or not data.get('author') or not data.get('year'):
-        return "Missing parameters", 400
-    book = Book(data.get('title'), data.get('author'), data.get('year'))
-    db.add_book(book)
-    return {"message": "CREATED", "data": {"id": book.id}}, 201
+    # data = request.get_json()
+    # Υλοποιήστε τον κώδικα σας
+    pass
 
 
 @server.route('/books/<id>', methods=['DELETE'])
-@token_required
 def delete_book(id):
-    deleted = db.delete_book(id)  
-    return ({"message":"DELETED", "data": {"id": id}}, 200) if deleted else ("Book not found", 404)
+    pass
 
 
 @server.route('/books/<id>', methods=['PUT'])
 @token_required
 def update_book(id):
-    data = request.get_json()
-    if data is None:
-        return "Missing parameters", 400
-    if not data.get('title') and not data.get('author') and not data.get('year'):
-        return "Missing parameters", 400
-    result = db.update_book(id, data)
-    return ({"message":"UPDATED", "data": {"id": id}}, 200) if result else ("Book not found", 404)
+    # data = request.get_json()
+    # Υλοποιήστε τον κώδικα σας
+    pass
 
 
 @server.route('/token', methods=['POST'])
@@ -76,6 +60,5 @@ def get_token():
         server.config['SECRET_KEY'],
         algorithm='HS256'
     )
-
-    print(token)
+    
     return ({'message': 'OK' ,'token': token}, 200)
