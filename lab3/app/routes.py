@@ -29,7 +29,6 @@ def delete_book(id):
 
 
 @server.route('/books/<id>', methods=['PUT'])
-@token_required
 def update_book(id):
     # data = request.get_json()
     # Υλοποιήστε τον κώδικα σας
