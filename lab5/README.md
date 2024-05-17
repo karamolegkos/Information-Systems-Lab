@@ -70,7 +70,7 @@
 
 ## Routes
 
-Θα δουλέψετε πάνω στο αρχείο `routes2.py` και στον endpoint `/books`
+Θα δουλέψετε πάνω στο αρχείο `routes2.py` και στο endpoint `/books`
 
 ## PyMongo
 
