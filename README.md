@@ -10,8 +10,9 @@
 2. [Εργαστήριο 2 - Εισαγωγή στο Docker](lab2)
 3. [Εργαστήριο 3 - Flask](lab3)
 4. [Εργαστήριο 4 - MongoDB και Docker](lab4)
-<!-- 5. [Εργαστήριο 5 - Containerization](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab5)
-6. [Extra Εργαστήριο - Scaling στο Docker](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab6) -->
+5. [Εργαστήριο 5 - MongoDB και Flask](lab5)
+<!-- 6. [Εργαστήριο 6 - Containerization](lab6) -->
+<!-- 7. [Extra Εργαστήριο - Scaling στο Docker](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab6) -->
 
 ## Υλικό για Εγκατάσταση
 Στον υπολογιστή των φοιτητών πρέπει να εγκατασταθούν τα παρακάτω:
@@ -25,4 +26,4 @@
 ## Στοιχεία Επικοινωνίας
 * Παναγιώτης Καραμολέγκος, [pkaram@unipi.gr](mailto:pkaram@unipi.gr)
 * Αντώνης Πάρδος, [antonispardos@unipi.gr](mailto:antonispardos@unipi.gr)
-* Πάρης Αμερικάνος, [tbd](mailto:tbd)
+* Πάρις Αμερικάνος, [pamerikanos@outlook.com](mailto:pamerikanos@outlook.com)
