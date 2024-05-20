@@ -32,7 +32,6 @@ def books():
     elif from_index is not None and to_index is not None:
         # PAGINATION
         books = rep.get_books(from_index, to_index)
-    # TODO Comment
     elif author is not None:
         pass
     elif title is not None:
@@ -54,13 +53,3 @@ def books():
         return [], 200
     return list(map(lambda x: x.to_dict(), books)), 200
 
-@server.route('/books', methods=['POST'])
-@token_required
-def add_book():
-    data = request.get_json()
-    pass
-
-@server.route('/books', methods=['PATCH'])
-@token_required
-def update_items():
-    pass
