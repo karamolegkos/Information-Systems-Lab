@@ -11,8 +11,8 @@ def main():
     # cryptography
     # key = Fernet.generate_key()
     
-    
-
+    # Connection for usage from the Lab
+    # client = pymongo.MongoClient("83.212.238.166", 27017)
     client = pymongo.MongoClient("localhost", 27017)
     # Or 
     # client = MongoClient("mongodb://localhost:27017/")
