@@ -51,5 +51,7 @@ def books():
 
     if books is None:
         return [], 200
+    if isinstance(books, dict):
+        return books, 200
     return list(map(lambda x: x.to_dict(), books)), 200
 

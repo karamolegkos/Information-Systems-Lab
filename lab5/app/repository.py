@@ -41,6 +41,13 @@ class Repository:
         if from_index is not None and to_index is not None:
             # TODO Υλοποιήστε μηχανισμό ώστε να επιστρέφει κατάλληλο μήνυμα όταν το from_index είναι μεγαλύτερο από το to_index ή όταν υπάρχει 
             # αρνητικός αριθμός.
+            # ...
+            # Απάντηση
+            if (int(from_index) > int(to_index)) or (int(from_index) < 0 or int(to_index) < 0):
+                return {
+                    "message": "Invalid indexes",
+                    "books": []
+                }
             results = self.db["books"].find()[int(from_index):int(to_index)]
         else:
             results = self.db["books"].find()
@@ -55,7 +62,6 @@ class Repository:
             return Book.from_dict(result)
         return None
 
-    # TODO Comment
     def get_books_by_author(self, name:str) -> List[Book]:
         # Να βρίσκει όλα τα βιβλία που ο συγγραφέας έχει ακριβώς το ίδιο όνομα με το name.
         pass
