@@ -47,4 +47,4 @@ localhost:5000
 deactivate
 ```
 
-Για να διαγράψετε το Virtual Environment ακρεί να διαγράψετε τον φάκελο `venv`.
+Για να διαγράψετε το Virtual Environment αρκεί να διαγράψετε τον φάκελο `venv`.
