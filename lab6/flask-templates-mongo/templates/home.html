@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h2>Welcome, {{ username }}!</h2>
+    <ul>
+        <li><a href="{{ url_for('add_student') }}">Add Student</a></li>
+        <li><a href="{{ url_for('add_professor') }}">Add Professor</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+</body>
+</html>
