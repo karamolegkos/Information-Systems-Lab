@@ -5,10 +5,10 @@
 - [Flask Templates](flask-templates)
 - [Flask Containerization](flask-containerization)
 - [Docker Compose](docker-compose)
-- Jinja2 (Δείτε Παρακάτω)
+- Jinja (Δείτε Παρακάτω)
 
-## Jinja2
-Η Jinja2, είναι μία μηχανή κατασκευής template η οποία συνδέεται εύκολα με το Flask.
+## Jinja
+Η Jinja, είναι μία μηχανή κατασκευής template η οποία συνδέεται εύκολα με το Flask.
 
 Παρακάτω διατίθενται παραδείγματα της Jinja2, αν θέλετε παραπάνω παραδείγματα και να αποκτήσετε μία ποιο βαθιά γνώση επάνω σε αυτήν, αναφερθείτε στο σχετικό [documentation](https://jinja.palletsprojects.com/en/3.1.x/).
 
@@ -44,7 +44,7 @@ Hello John
 ```
 
 ### Φίλτρα
-Η Jinja2 επιτρέπει επίσης την χρήση φίλτρων. Παρακάτω δίνεται ένα παράδειγμα. Αν επιθυμείτε να μάθετε περισσότερα, αναφερθείτε στο σχετικό [documentation](https://jinja.palletsprojects.com/en/3.0.x/templates/#id11).
+Η Jinja επιτρέπει επίσης την χρήση φίλτρων. Παρακάτω δίνεται ένα παράδειγμα. Αν επιθυμείτε να μάθετε περισσότερα, αναφερθείτε στο σχετικό [documentation](https://jinja.palletsprojects.com/en/3.0.x/templates/#id11).
 
 Έστω η μεταβλητή `GREETING = "Hello"`. Μπορούμε να χρησιμοποιήσουμε τα δύο παρακάτω φίλτρα για να την επεξεργαστούμε:
 ```jinja
