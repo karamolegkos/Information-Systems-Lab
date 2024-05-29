@@ -11,7 +11,7 @@
 3. [Εργαστήριο 3 - Flask](lab3)
 4. [Εργαστήριο 4 - MongoDB και Docker](lab4)
 5. [Εργαστήριο 5 - MongoDB και Flask](lab5)
-<!-- 6. [Εργαστήριο 6 - Containerization](lab6) -->
+6. [Εργαστήριο 6 - Containerization & Flask Templates](lab6)
 <!-- 7. [Extra Εργαστήριο - Scaling στο Docker](https://github.com/csymvoul/Information-Systems-Lab/tree/master/lab6) -->
 
 ## Υλικό για Εγκατάσταση

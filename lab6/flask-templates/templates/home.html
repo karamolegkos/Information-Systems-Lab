@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 2em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .container h2 {
+            margin-bottom: 1em;
+        }
+        .container a {
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 3px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .container a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, {{ username }}!</h2>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</body>
+</html>
