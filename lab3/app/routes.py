@@ -11,6 +11,7 @@ db = Repository()
 # Routes
 # Get all the books
 @server.route('/books/all', methods=['GET'])
+# @token_required # Remove to allow access only with Bearer Token
 def get_all_books():
     books = db.get_books()
     return books, 200
@@ -38,7 +39,7 @@ def add_book():
 # Delete a book from the library
 @server.route('/books/<id>', methods=['DELETE'])
 def delete_book(id):
-    # The endpoint should be something like the following: http://localhost:5000/books?id=95c57eed-6c06-4ed5-a44b-00073063628b
+    # The endpoint should be something like the following: http://localhost:5000/books/95c57eed-6c06-4ed5-a44b-00073063628b
     # The id parameter is being gathered by the function delete_book(id)
     # Υλοποιήστε τον κώδικα σας
     pass
@@ -46,7 +47,6 @@ def delete_book(id):
 
 # Update a book in the library. This function is using token authentication
 @server.route('/books/<id>', methods=['PUT'])
-@token_required
 def update_book(id):
     # data = request.get_json()
     # Υλοποιήστε τον κώδικα σας
