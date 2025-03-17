@@ -23,8 +23,8 @@
 ```
 Για να ξεκινήσουμε πάλι το container
 ```
-(sudo) docker ps -a                 # To get Running Containers
-(sudo) docker start mongodb			# To start a container
+(sudo) docker ps -a              # To get Running Containers
+(sudo) docker start mongodb      # To start a container
 ```
 Για να σταματήσουμε το container
 ```
@@ -44,7 +44,7 @@
 (sudo) docker cp students.json mongodb:/students.json
 
 # Provide the Information in MongoDB
-(sudo) docker exec -it mongodb mongoimport --db=InfoSys --collection=Students --file=students.json
+(sudo) docker exec -it mongodb mongoimport --db=InfoSys --collection=Students --file=students.json --jsonArray
 ```
 
 #### Mongo Shell Commands
