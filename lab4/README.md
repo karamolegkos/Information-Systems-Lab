@@ -15,11 +15,11 @@
 ```
 Αν θέλουμε κάποια συγκεκριμένα version μπορούμε να τη κατεβάσουμε έτσι: 
 ```
-(sudo) docker pull mongo:4.0.4 
+(sudo) docker pull mongo:8.0.5
 ```
 Για να κάνουμε deploy το image για πρώτη φορά:
 ```
-(sudo) docker run -d -p 27017:27017 --name mongodb mongo:4.0.4
+(sudo) docker run -d -p 27017:27017 --name mongodb mongo:8.0.5
 ```
 Για να ξεκινήσουμε πάλι το container
 ```
@@ -35,7 +35,7 @@
 
 Για να χρησιμοποιήσουμε το mongo shell 
 ```
-(sudo) docker exec -it mongodb mongo
+(sudo) docker exec -it mongodb mongosh
 ```
 
 Μερικές φορές, μπορεί να έχουμε αρχεία έτοιμα τα οποία να θέλουμε να τα περάσουμε εντός της Βάσης Δεδομένων. Ένα παράδειγμα για να το κάνουμε αυτό είναι το παρακάτω:
