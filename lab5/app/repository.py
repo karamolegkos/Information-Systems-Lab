@@ -42,12 +42,6 @@ class Repository:
             # TODO Υλοποιήστε μηχανισμό ώστε να επιστρέφει κατάλληλο μήνυμα όταν το from_index είναι μεγαλύτερο από το to_index ή όταν υπάρχει 
             # αρνητικός αριθμός.
             # ...
-            # Απάντηση
-            if (int(from_index) > int(to_index)) or (int(from_index) < 0 or int(to_index) < 0):
-                return {
-                    "message": "Invalid indexes",
-                    "books": []
-                }
             results = self.db["books"].find()[int(from_index):int(to_index)]
         else:
             results = self.db["books"].find()
