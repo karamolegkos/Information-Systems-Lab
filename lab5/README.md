@@ -12,8 +12,8 @@
 ### Λήψη εικόνας και έναρξη του Container
 
 Μπορείτε να εκτελέσετε την MongoDB Community Edition ως κοντέινερ Docker χρησιμοποιώντας την επίσημη εικόνα της κοινότητας MongoDB.  
-Για να κατεβάσουμε την εικόνα εκτελούμε την εντολή `docker pull mongo`.  
-Αφού ολοκληρωθεί η λήψη τρέχουμε την εικόνα σαν Container με την εντολή `docker run --name mongodb -p 27017:27017 -d mongo:latest`.  
+Για να κατεβάσουμε την εικόνα εκτελούμε την εντολή `docker pull mongo:8.0.5`.  
+Αφού ολοκληρωθεί η λήψη τρέχουμε την εικόνα σαν Container με την εντολή `docker run --name mongodb -p 27017:27017 -d mongo:8.0.5`.  
 Τώρα η βάση μας τρέχει στην πόρτα 27017 localhost. Το όνομα του container είναι mongodb.  
 
 ### MongoDB Compass
