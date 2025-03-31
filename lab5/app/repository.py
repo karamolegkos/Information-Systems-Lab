@@ -30,25 +30,33 @@ class Repository:
         """
         raise RuntimeError('Call instance() instead')
 
-    def get_books(self, from_index:Optional[str]=None, to_index:Optional[str]=None)-> list[Book]:
+    def get_books(self, from_index:Optional[str]=None, to_index:Optional[str]=None)-> dict:
         '''
         Args:
             from_index (str | None): Δείκτης για να ξεκινήσει η αναζήτηση
             to_index (str | None): Δείκτης για να ολοκληρωθεί η αναζήτηση
         Returns:
-            List[Book]: Λίστα με βιβλία. 
+            Dict:
+                - "books": List[Book] # Λίστα με βιβλία.
+                - "message" : str | None # Μήνυμα Σφάλματα
+                - "status" : int # Το Status του Αποτελέσματος
         '''
+        answer = {
+            "books" : [],
+            "message" : None,
+            "status" : 200
+        }
         if from_index is not None and to_index is not None:
             # TODO Υλοποιήστε μηχανισμό ώστε να επιστρέφει κατάλληλο μήνυμα όταν το from_index είναι μεγαλύτερο από το to_index ή όταν υπάρχει 
             # αρνητικός αριθμός.
             # ...
+
             results = self.db["books"].find()[int(from_index):int(to_index)]
         else:
             results = self.db["books"].find()
-        books:list[Book] = []  # Exercise
         for r in results:
-            books.append(Book.from_dict(r))
-        return books
+            answer["books"].append(Book.from_dict(r))
+        return answer
     
     def get_book_by_id(self, id:str) -> Book | None:
         result = self.db["books"].find_one({"id":id})
@@ -56,37 +64,37 @@ class Repository:
             return Book.from_dict(result)
         return None
 
-    def get_books_by_author(self, name:str) -> List[Book]:
+    def get_books_by_author(self, name:str) -> dict:
         # Να βρίσκει όλα τα βιβλία που ο συγγραφέας έχει ακριβώς το ίδιο όνομα με το name.
         pass
 
-    def get_books_by_title(self, title:str)-> List[Book]:
+    def get_books_by_title(self, title:str)-> dict:
         # Ο τίτλος να περιέχεται στο βιβλίο. Πχ να επιστρέφει όλα τα βιβλία που στον τίτλο περιέχεται
         # η λέξη "Plastic". Η συνάρτηση δεν είναι case sensitive.
         pass
 
-    def get_books_by_genre(self, genre:str) -> List[Book]:
+    def get_books_by_genre(self, genre:str) -> dict:
         # Να βρίσκει τα βιβλία που περιέχουν στο attribute genre την τιμή της παραμέτρου genre.
         # Παράδειγμα genre="Non-fiction" και το genre κάποιου βιβλίου είναι "Non-fiction,Romance novel"
         pass
 
-    def get_books_by_rating(self, min_r:float, max_r:float) -> List[Book]:
+    def get_books_by_rating(self, min_r:float, max_r:float) -> dict:
         # Να είναι μεταξύ του [min_r και max_r).
         pass
 
-    def get_books_by_date(self, from_date:int, to_date:int)-> List[Book]:
+    def get_books_by_date(self, from_date:int, to_date:int)-> dict:
         # Να είναι μεταξύ του [from_date και to_date).
         pass
 
-    def get_books_by_items(self, max_items:Optional[int], min_items:Optional[int]) -> List[Book]:
+    def get_books_by_items(self, max_items:Optional[int], min_items:Optional[int]) -> dict:
         # Να είναι μεταξύ του [min_items και max_items].
         pass
     
-    def get_books_by_comments(self, comments_min:int, comments_max:int) -> List[Book]:
+    def get_books_by_comments(self, comments_min:int, comments_max:int) -> dict:
         # Να είναι μεταξύ του [comments_min και comments_max).
         pass
 
-    def add_book(self, book_dict:dict) -> str:
+    def add_book(self, book_dict:dict) -> dict:
         pass
 
     def update_items(self, book_id:str, new_items:int) -> None:

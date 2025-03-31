@@ -31,7 +31,9 @@ def books():
         return (book.to_dict(), 200) if book else ("Book not found", 404)
     elif from_index is not None and to_index is not None:
         # PAGINATION
-        books = rep.get_books(from_index, to_index)
+        answer = rep.get_books(from_index, to_index)
+        if answer["status"] != 200:
+            return answer["message"], answer["status"]
     elif author is not None:
         pass
     elif title is not None:
@@ -47,11 +49,6 @@ def books():
     elif comments_min is not None and comments_max is not None:
         pass
     else:
-        books = rep.get_books()
-
-    if books is None:
-        return [], 200
-    if isinstance(books, dict):
-        return books, 200
-    return list(map(lambda x: x.to_dict(), books)), 200
+        answer = rep.get_books()
+    return list(map(lambda x: x.to_dict(), answer["books"])), answer["status"]
 
