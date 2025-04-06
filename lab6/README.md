@@ -6,6 +6,7 @@
 - [Flask Templates + Mongo](flask-templates-mongo)
 - [Flask Containerization](flask-containerization)
 - [Docker Compose + Flask](flask-compose)
+- [Docker Compose + Flask + Startup Data](compose-with-data)
 - Jinja (Δείτε Παρακάτω)
 
 ## Jinja

@@ -1,0 +1,29 @@
+[
+    {
+        "is_teacher" : true,
+        "name" : "Panagiotis",
+        "surname" : "Karamolegkos",
+        "subject" : "Information Systems"
+    },
+    {
+        "is_teacher" : false,
+        "name" : "Nikos",
+        "surname" : "Nikou"
+    },
+    {
+        "is_teacher" : false,
+        "name" : "Giorgos",
+        "surname" : "Georgiou"
+    },
+    {
+        "is_teacher" : true,
+        "name" : "Andreas",
+        "surname" : "Karabetian",
+        "subject" : "Front-end"
+    },
+    {
+        "is_teacher" : false,
+        "name" : "Andreas",
+        "surname" : "Andreou"
+    }
+]
