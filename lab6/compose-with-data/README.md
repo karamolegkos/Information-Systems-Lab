@@ -12,7 +12,7 @@ sudo apt-get -y install docker-compose
 
 Στην συνέχεια, μπορούμε να χρησιμοποιήσουμε την επόμενη εντολή για να σηκώσουμε όλο μας το σύστημα:
 ```shell
-docker-compose up -d --build # This will rebuild the image even if it already exist
+docker compose up -d --build # This will rebuild the image even if it already exist
 ```
 
 ## Απεγκατάσταση
