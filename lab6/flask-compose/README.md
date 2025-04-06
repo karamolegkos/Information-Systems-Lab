@@ -19,5 +19,6 @@ docker compose up -d
 
 Μπορούμε πλέον να απεγκαταστήσουμε όλο το Πληροφοριακό μας Σύστημα, χρησιμοποιώντας την παρακάτω εντολή:
 ```shell
-docker rm -f my-server-container my-mongo
+docker compose down
+# This will also work: docker rm -f my-server-container my-mongo
 ```

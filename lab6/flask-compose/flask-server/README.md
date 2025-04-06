@@ -2,7 +2,7 @@
 
 ## Prerequisites
 - Docker Engine
-  - `docker pull mongo:7.0.9`
+  - `docker pull mongo:8.0.5`
 - Python
   - `pip install virtualenv`
 
@@ -10,7 +10,7 @@
 
 Ανοίγουμε ένα τερματικό και γράφουμε την παρακάτω εντολή για να σηκώσουμε ένα Mongo DBMS:
 ```shell
-docker run -d -p 27017:27017 --name my-mongo mongo:7.0.9
+docker run -d -p 27017:27017 --name my-mongo mongo:8.0.5
 ```
 
 ## Κατασκευή requirements.txt Αρχείου
